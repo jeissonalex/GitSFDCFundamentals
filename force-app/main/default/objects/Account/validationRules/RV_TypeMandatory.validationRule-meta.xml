@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RV_TypeMandatory</fullName>
+    <active>true</active>
+    <description>Field Type is mandatory for all accounts</description>
+    <errorConditionFormula>ISPICKVAL(Type,&quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>Fill Type this field is mandatory</errorMessage>
+</ValidationRule>
